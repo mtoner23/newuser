@@ -9,8 +9,7 @@ alias ll='ls -lah'
 alias cdg='cd ~/git'
 
 #Git
-alias gdom='git diff origin master'
-alias gdom='git diff origin main'
+alias gdom='git diff @{upstream}'
 alias gdh='git diff HEAD'
 alias pull='git pull --rebase'
 alias push='git push'
