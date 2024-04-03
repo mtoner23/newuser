@@ -3,6 +3,13 @@ cp vimrc ~/.vimrc
 
 source ~/.bashrc
 
+apt install git
+
+#git
+git config --global core.editor "vim"
+git config --global user.email "22949655+mtoner23@users.noreply.github.com"
+git config --global user.name "Michael Toner"
+
 #install rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
