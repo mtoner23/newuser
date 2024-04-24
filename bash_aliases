@@ -1,5 +1,6 @@
 #Obvious
 alias resource="source ~/.bashrc"
+alias vim='nvim'
 
 # Navigation
 alias cd..="cd .."

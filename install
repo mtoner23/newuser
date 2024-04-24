@@ -1,3 +1,20 @@
-apt install ncdu
-apt install ripgrep
+#!/bin/bash
+
+# Check if apt or dnf is available
+if [ -x "$(command -v apt)" ]; then
+    package_manager="apt"
+elif [ -x "$(command -v dnf)" ]; then
+    package_manager="dnf"
+else
+    echo "Neither apt nor dnf package managers found."
+    exit 1
+fi
+
+# Install package
+install_packages() {
+	sudo $package_manager install "$@" -y
+}
+
+install_packages ncdu ripgrep git neovim
+
 
