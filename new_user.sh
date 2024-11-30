@@ -9,6 +9,8 @@ source ~/.bashrc
 git config --global core.editor "vim"
 git config --global user.email "22949655+mtoner23@users.noreply.github.com"
 git config --global user.name "Michael Toner"
+git config rebase.autosquash true
+git config pull.rebase true
 
 echo "Installing Cargo"
 #install rust
@@ -22,4 +24,3 @@ cargo install bat
 
 resource
 
-git config rebase.autosquash true
