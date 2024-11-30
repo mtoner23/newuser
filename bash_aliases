@@ -16,6 +16,8 @@ alias gdh='git diff HEAD'
 alias pull='git pull --rebase'
 alias push='git push'
 alias gri='git rebase -i'
+alias gcf='git commit --fixup HEAD --autosquash'
+
 
 #Advanced
 alias cat='bat'

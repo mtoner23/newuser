@@ -20,4 +20,6 @@ cargo install bat
 
 ./clones
 
+resource
 
+git config rebase.autosquash true
