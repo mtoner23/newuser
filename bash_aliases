@@ -21,6 +21,7 @@ alias gcf='git commit --fixup HEAD --autosquash'
 
 #Advanced
 alias cat='bat'
+alias ag='rg'
 
 
 
