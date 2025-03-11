@@ -15,5 +15,6 @@ install_packages() {
 	sudo $package_manager install "$@" -y
 }
 
-install_packages bat curl ncdu ripgrep git neovim build-essential man
+install_packages bat curl ncdu ripgrep git neovim \
+	build-essential man openssl libssl-dev
 
